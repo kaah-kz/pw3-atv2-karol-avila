@@ -90,15 +90,13 @@ function App() {
           onChange={(event) => { setSenha(event.target.value) }} />
 
 
-        <div>
-          <label className="dataNasc">Data de nascimento:</label>
+        <label className="dataNasc">Data de nascimento:</label>
           <input
-            id="dataNasc"
-            type='date'
-            required
-            value={dataNasc}
-            onChange={(event) => { setDataNasc(event.target.value) }} />
-        </div>
+          id="dataNasc"
+          type='date'
+          required
+          value={dataNasc}
+          onChange={(event) => { setDataNasc(event.target.value) }} />
 
         <button type='submit'>CADASTRAR</button>
       </form>
